@@ -1,0 +1,3 @@
+run:
+	mpicc 1d.c -lm
+	mpirun -np 3 ./a.out 
